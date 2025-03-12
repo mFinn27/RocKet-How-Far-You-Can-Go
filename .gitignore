@@ -1,0 +1,56 @@
+# ==========================
+# Unity gitignore file
+# ==========================
+
+# Thư mục thư viện (tự động tạo lại, không cần đẩy lên Git)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Dữ liệu cache của Lightmap
+[Ll]ightmapSnapshot
+.lightmaps/
+
+# Bỏ qua tệp csproj và solution (dành cho IDE như Visual Studio)
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.booproj
+*.svd
+*.pdb
+*.pidb
+*.unityproj
+*.psd.meta
+*.suo
+
+# Bỏ qua tệp hệ thống
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Bỏ qua plugin và dữ liệu liên quan
+.vscode/
+.idea/
+*.tmproj
+*.pidb
+*.pidb.meta
+*.pdb.meta
+
+# Bỏ qua file nhập Asset Store
+Assets/AssetStoreTools*
+
+# Tệp log của Unity
+*.log
+*.log*
+
+# Thư mục auto-generated của Unity (không cần đẩy lên)
+/Packages/
